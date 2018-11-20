@@ -5,3 +5,5 @@ def change_dir(directory):
 	import os
 	os.chdir(directory)
 	return "Directory changed to "+os.getcwd()
+def hello():
+	return "Hello !!!"
